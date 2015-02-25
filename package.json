@@ -1,0 +1,27 @@
+{
+	"name": "lite-cache",
+	"description": "Extremly lightweight fully synchronous NodeJS internal cache. No Object wrapper on `get` value and returns `undefined` on miss",
+	"keywords": [ "cache", "synchronous", "local", "memory", "internal", "node", "lite", "lightweight", "map", "dictionary", "ttl" ],
+	"tags": [ "cache", "synchronous", "local", "memory", "internal", "node", "lite", "lightweight", "map", "dictionary", "ttl" ],
+	"version": "0.1.0",
+	"author": "callmewa <callmewa@gmail.com>",
+	"main": "./index.js",
+	"homepage": "https://github.com/callmewa/litecache",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/callmewa/litecache.git"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts":{
+		"test": "mocha test/lite_cache_test.js"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+      "mocha": "2.1.0",
+      "should": "5.0.1",
+      "lodash": "3.3.1"
+	}
+}
