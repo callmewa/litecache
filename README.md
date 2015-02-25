@@ -1,20 +1,20 @@
-lite-cache
+liteCache
 ===========
 
 
-# synchronous and lightweight NodeJS internal cache.
+# Synchronous NodeJS internal cache.
 
 A purely synchronous lightweight cache module with constant-time `set`, `get` and `del` methods that works like a dictionary map.
 Cache supports ttl for expired value removal.  Expired keyValue pairs are only pruned on `get` or `del`.  No tasks are scheduled  in the node event loop.
 Built-in support for `null` value and `integer` keys.
 If you want stale key-removal scheduler, multi-key support, or event handling then look at [node-cache](https://www.npmjs.com/package/node-cache).
-If you do not need nor want to "pay" for those features then **lite-cache** is for you.
-Lite-cache has no external dependencies.  Feel free to comment and contribute!
+If you do not need nor want to "pay" for those features then **liteCache** is for you.
+LiteCache has no external dependencies.  Feel free to comment and contribute!
 
 # Install
 
 ```bash
-  npm install lite-cache
+  npm install litecache
 ```
 
 Or just require the `lite_cache.js` file to get the superclass
@@ -24,7 +24,7 @@ Or just require the `lite_cache.js` file to get the superclass
 ## Initialize:
 
 ```js
-var LiteCache = require( "lite-cache" );
+var LiteCache = require( "litecache" );
 var cache = new LiteCache();
 ```
 
