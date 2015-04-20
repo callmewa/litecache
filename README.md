@@ -85,5 +85,5 @@ cache.getStats();
 
 `cache.flush()`
 
-Flush all data.  Reset internal counters
+Flush all data.  Reset internal counters.
 
